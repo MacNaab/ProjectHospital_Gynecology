@@ -13,7 +13,7 @@ The symptomatology and therapy is based on the recommendations of the CNGOF (Nat
 You can download it at : https://github.com/MacNaab/ProjectHospital_Gynecology/releases
 Thanks to Sleepy068 for his help.
 
-###Compatible with:
+### Compatible with:
 - Sexual Health Department
 - Oncology Department
 - Ear, Nose and Throat Department
