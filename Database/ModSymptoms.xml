@@ -1,0 +1,92 @@
+<Database>
+
+
+    <GameDBSymptom ID="SYM_OBGYN_KYSTE">						<!--  -->
+        <DescriptionLocID>SYM_KYSTE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_ECHO_PELV</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DETORSION</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1299</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_DG3</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_DG3_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_OBGYN_HEMOPERITOINE">				<!-- Hemoperitoneum -->
+        <DescriptionLocID>SYM_OBGYN_HEMOPERITOINE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Medium</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>High</Hazard>
+        		
+		<RiskOfCollapseStartHours>6</RiskOfCollapseStartHours>
+        <RiskOfCollapseEndHours>24</RiskOfCollapseEndHours>
+        <CollapseSymptomRef>SYM_HYPOVOLEMIC_SHOCK</CollapseSymptomRef>
+				
+		<PatientMobility>IMOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_PELVIC_EXAM</ExaminationRef> <!-- Signe de Douglas -->
+            <ExaminationRef>EXM_CRP_ECHO_PELV</ExaminationRef>
+			<ExaminationRef>EXM_FAST</ExaminationRef>
+            <ExaminationRef>EXM_CT</ExaminationRef>	
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_OBGYN_ENDOSCOPIC_CAUTERIZATION</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <BleedingLevel>2</BleedingLevel>
+		<IconIndex>1607</IconIndex>
+    </GameDBSymptom>
+
+    <GameDBSymptom ID="SYM_OBGYN_VEGETATION_KYSTE">					<!-- Extracystic vegetation -->	
+        <DescriptionLocID>SYM_OBGYN_VEGETATION_KYSTE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Low</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_CRP_ECHO_PELV</ExaminationRef>
+            <ExaminationRef>EXM_MRI</ExaminationRef>
+        </Examinations>
+		<Treatments>
+            <TreatmentRef>TRT_HYSTERECTOMIE</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1301</IconIndex>
+		<CustomIconBigAssetRef>ASSET_GYNECO_ICON_S12</CustomIconBigAssetRef>
+        <CustomIconSmallAssetRef>ASSET_GYNECO_ICON_S12_SMALL</CustomIconSmallAssetRef>
+    </GameDBSymptom>
+
+    <!-- =============================			V2.2 			============================== -->
+
+    <GameDBSymptom ID="SYM_OBGYN_SYPHILIDE">
+        <DescriptionLocID>SYM_OBGYN_SYPHILIDE_DESCRIPTION</DescriptionLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <PatientComplains>false</PatientComplains>
+        <Hazard>Medium</Hazard>
+        <PatientMobility>MOBILE</PatientMobility>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+        </Treatments>
+        <ShameLevel>0</ShameLevel>
+        <IsMainSymptom>false</IsMainSymptom>
+        <SpeechBubbleRef>BUBBLE_PLACEHOLDER</SpeechBubbleRef>
+        <IconIndex>1029</IconIndex>
+    </GameDBSymptom>
+	
+</Database>

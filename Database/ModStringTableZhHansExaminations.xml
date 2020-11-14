@@ -1,0 +1,47 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_ADDON_GYNECOLOGIE_EXAMINATIONS">
+
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>1328411791</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== Examen normal ================================================== -->
+			      			
+			<GameDBLocalizedString>	<LocID>EXM_GYNECOLOGIC_EXAM</LocID>					<Text>妇科检查</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_GYNECOLOGIC_EXAM_DESCRIPTION</LocID>		<Text>旨在评估妇女生殖系统健康状况的程序。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_SEIN</LocID>								<Text>乳房检查</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_SEIN_DESCRIPTION</LocID>					<Text>乳房的视觉检查和触诊。</Text></GameDBLocalizedString>
+
+			<!-- ================================================== Imagerie ================================================== -->
+
+			<GameDBLocalizedString>	<LocID>EXM_ECHO_PELV</LocID>						<Text>盆腔超声</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_ECHO_PELV_DESCRIPTION</LocID>			<Text>盆腔区超声检查。</Text>	</GameDBLocalizedString>
+
+<!-- New -->
+			<GameDBLocalizedString>	<LocID>EXM_MAMMOGRAPHIE</LocID>						<Text>乳房x光检查</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_MAMMOGRAPHIE_DESCRIPTION</LocID>			<Text>乳房的x光检查。</Text>	</GameDBLocalizedString>
+
+			<!-- ================================================== Bio ================================================== -->
+
+			<GameDBLocalizedString>	<LocID>EXM_VDRL-TPHA_SAMPLING</LocID>				<Text>VDRL-TPHA抽样</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_VDRL-TPHA_SAMPLING_DESCRIPTION</LocID>	<Text>血清学抽样诊断梅毒。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_VDRL-TPHA_TESTING</LocID>				<Text>VDRL-TPHA测试</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_VDRL-TPHA_TESTING_DESCRIPTION</LocID>	<Text>性病研究实验室(VDRL)测试的目的是评估你是否患有梅毒，性传播感染(STI)。</Text>	</GameDBLocalizedString>
+
+<!-- New -->
+			<GameDBLocalizedString>	<LocID>EXM_FCU_SAMPLING</LocID>						<Text>子宫颈抹片检查抽样</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_FCU_TESTING</LocID>						<Text>子宫颈抹片检查测试</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_FCU_DESCRIPTION</LocID>					<Text>一种早期发现癌症的方法，尤指子宫颈，它涉及到用一种鉴别病变组织的特殊技术对脱落细胞进行染色。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_HGPO_SAMPLING</LocID>					<Text>OGTT抽样</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_HGPO_TESTING</LocID>						<Text>OGTT试验</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>EXM_HGPO_DESCRIPTION</LocID>					<Text>葡萄糖耐量试验，也被称为口服葡萄糖耐量试验(OGTT)，测量你的身体对糖(葡萄糖)的反应。</Text>	</GameDBLocalizedString>
+
+			
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

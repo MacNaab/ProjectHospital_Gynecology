@@ -1,0 +1,320 @@
+<Database>
+
+    <!-- ================================================== NEW ================================================== -->
+
+	<GameDBTreatment ID="TRT_IMMUNOGLOBULINE_ANTI-D"> <!-- Normal -->
+        <AbbreviationLocID>TRT_IMMUNOGLOBULINE_ANTI-D_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredSkillsToPrescribe>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredSkillsToPrescribe>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+            <AnimationSetupSitting>
+                <AnimationNameIn>stand_press_bandage_hand_in</AnimationNameIn>
+                <AnimationNameIdle>stand_press_bandage_hand_idle</AnimationNameIdle>
+                <AnimationNameOut>stand_press_bandage_hand_out</AnimationNameOut>
+            </AnimationSetupSitting>
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <ReceiptType>IV_BAG</ReceiptType>
+        <Cost>100</Cost>
+        <IconIndex>1951</IconIndex>
+        <DurationHours>0</DurationHours>
+        <HospitalizationTreatmentRef>TRT_HOSPITALIZATION_NORMAL</HospitalizationTreatmentRef>
+        <AllowedWithAnyHospitalization>true</AllowedWithAnyHospitalization>
+
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_OP"> <!-- Normal -->
+        <AbbreviationLocID>TRT_OP_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+			
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>50</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_ANTI_ACNEE"> <!-- Normal - PREPARATIONS ANTIACNEIQUES -->
+        <AbbreviationLocID>TRT_ANTI_ACNEE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>50</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_METFORMINE"> <!-- Normal - Antidiabètique oraux -->
+        <AbbreviationLocID>TRT_METFORMINE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>50</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_ANTI_ANDROGEN"> <!-- Normal - Antidiabètique oraux -->
+        <AbbreviationLocID>TRT_ANTI_ANDROGEN_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>50</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_PROGESTATIF"> <!-- Normal -->
+        <AbbreviationLocID>TRT_PROGESTATIF_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+				 <SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>50</Cost>
+        <IconIndex>1883</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+	<GameDBTreatment ID="TRT_OESTROGENOTHERAPIE"> <!-- Normal -->
+        <AbbreviationLocID>TRT_OESTROGENOTHERAPIE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+
+	<GameDBTreatment ID="TRT_THERAPIE_HORMONALE"> <!-- Changé -->
+        <AbbreviationLocID>TRT_THERAPIE_HORMONALE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>Low</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</SkillRef>
+				<SkillRef>SKILL_DOC_SPEC_INTERNAL_MEDICINE</SkillRef>
+                <SkillRef>SKILL_DOC_SPEC_CRITICAL_CARE</SkillRef>
+            </RequiredDoctorQualificationList>
+
+            <RequiredEquipmentList>
+                <RequiredEquipment>
+                    <Tag>receipt</Tag>
+                </RequiredEquipment>
+            </RequiredEquipmentList>
+
+            <RequiredRoomTags>
+				<Tag>observation</Tag>
+                <Tag>icu</Tag>	
+				<Tag>gyneco_office</Tag>	
+				<Tag>gyneco_inpatient_office</Tag>
+				<Tag>receipt</Tag>
+            </RequiredRoomTags>
+            <ProcedureScript>ProcedureScriptTreatmentReceipt</ProcedureScript>
+        </Procedure>
+        <TreatmentType>RECEIPT</TreatmentType>
+        <Cost>125</Cost>
+        <IconIndex>1861</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+
+
+    <GameDBTreatment ID="TRT_SURVEILLANCE">
+        <AbbreviationLocID>TRT_SURVEILLANCE_DESCRIPTION</AbbreviationLocID>
+        <DiscomfortLevel>None</DiscomfortLevel>
+        <Procedure>
+            <StaffSelectionRules>REQUIRED_ROOM_OR_DEFAULT_ROOM</StaffSelectionRules>
+
+            <RequiredDoctorQualificationList>
+                <SkillRef>SKILL_DOC_QUALIF_GENERAL_MEDICINE</SkillRef>
+            </RequiredDoctorQualificationList>
+            
+            <RequiredRoomTags>
+                <Tag>receipt</Tag>
+            </RequiredRoomTags>
+
+            <ProcedureScript>ProcedureScriptTreatmentPrescription</ProcedureScript>
+
+            <AnimationSetupSitting>
+                <AnimationNameIn>sit_doc_recommendation_in</AnimationNameIn>
+                <AnimationNameIdle>sit_doc_recommendation_idle</AnimationNameIdle>
+                <AnimationNameOut>sit_doc_recommendation_out</AnimationNameOut>
+            </AnimationSetupSitting>
+
+            <DressLevel>FULL</DressLevel>
+            <DressLevelAfter>FULL</DressLevelAfter>
+        </Procedure>
+        <TreatmentType>PRESCRIPTION</TreatmentType>
+        <Cost>100</Cost>
+        <IconIndex>1901</IconIndex>
+        <DurationHours>0</DurationHours>
+    </GameDBTreatment>
+
+
+
+    <!-- ================================================== MODIF ================================================== -->
+
+
+
+</Database>

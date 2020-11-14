@@ -1,0 +1,18 @@
+<Database>
+    <!-- Gynécologue's SKILLS -->
+	<GameDBSkill ID="SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE">
+			<AbbreviationLocID>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE_DESCRIPTION</AbbreviationLocID>
+			<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+			<IconIndex>403</IconIndex>
+			<CustomIconAssetRef>ASSET_GYNECO_ICON_G</CustomIconAssetRef>
+			<CustomIconLightBackgroundAssetRef>ASSET_GYNECO_ICON_G_DARK</CustomIconLightBackgroundAssetRef>
+			<ExtraLevelingPercent>100</ExtraLevelingPercent>
+	</GameDBSkill>
+
+	<GameDBSkill ID="SKILL_DOC_SPEC_GYNECOLOGUE_SURGERY">
+			<AbbreviationLocID>SKILL_DOC_SPEC_GYNECOLOGUE_SURGERY_DESCRIPTION</AbbreviationLocID>
+			<ParentSkill>SKILL_DOC_QUALIF_GENERAL_MEDICINE</ParentSkill>
+			<IconIndex>2388</IconIndex>
+			<ExtraLevelingPercent>50</ExtraLevelingPercent>
+	</GameDBSkill>
+</Database>

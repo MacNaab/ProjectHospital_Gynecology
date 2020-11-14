@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="LOC_ES_ADDON_MOD_GYNECOLOGIE">
+    
+    <LanguageCode>es</LanguageCode>
+    <LanguageNameLocalized>Español</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>Parmeno75</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_GYNECOLOGIE</LocID>                       <Text>Ginegología</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

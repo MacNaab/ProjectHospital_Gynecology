@@ -1,0 +1,113 @@
+﻿<Database>
+    <GameDBObject ID="OBJECT_DECAL_GYNECO_DPT">
+        <AbbreviationLocID>OBJECT_DECALS_DESCRIPTION</AbbreviationLocID>
+        <TextureRef>ASSET_TEX_GYNECO_DECALS</TextureRef>
+        <TextureAtlasLayout>LAYOUT_16_X_16</TextureAtlasLayout>
+        <SpriteShape>SHAPE_1_X_1</SpriteShape>
+        <TextureIDNW>0</TextureIDNW>
+        <TextureIDNE>1</TextureIDNE>
+        <TextureIDSE>2</TextureIDSE>
+        <TextureIDSW>3</TextureIDSW>
+        <CustomIconAssetRef>ASSET_GYNECO_DPT_ICON_5</CustomIconAssetRef>
+
+        <Placement>UNLIMITED</Placement>
+
+        <AccessPositions></AccessPositions><!-- No limit -->
+        <PlacedToEdge>true</PlacedToEdge>
+        <AttachedToWall>true</AttachedToWall>
+        <NonBlocking>true</NonBlocking>
+        <NotInteractable>true</NotInteractable>
+        <HeightOffset>1.5</HeightOffset>
+
+        <Tags>
+            <Tag>ui_decals</Tag>
+        </Tags>
+
+        <ColorSetRef>COLOR_SET_BUILDING_DECALS</ColorSetRef>
+        <Cost>20</Cost>
+    </GameDBObject>
+    
+</Database>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

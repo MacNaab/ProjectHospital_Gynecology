@@ -1,0 +1,156 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ZHHANS_ADDON_GYNECOLOGIE_DIAGNOSES">
+
+        <LanguageCode>zh-Hans</LanguageCode>
+        <LanguageNameLocalized>简体中文</LanguageNameLocalized>
+
+        <Contributors>
+			<Name>1328411791</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+			<!-- ================================================== Clinique ================================================== -->
+
+			<GameDBLocalizedString>	<LocID>DIA_GEU</LocID>								<Text>子宫外孕</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GEU_DESCRIPTION</LocID>					<Text>受精卵在子宫(如输卵管或腹膜腔)以外的其他地方的发育</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_SOPK</LocID>								<Text>多囊性卵巢综合征（PCOS）</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_SOPK_DESCRIPTION</LocID>					<Text>多囊卵巢综合征或多囊卵巢综合征。一种以闭经、多毛、肥胖、不孕和卵巢增大为特征的可变疾病，通常由黄体生成素、雄激素或雌激素水平升高引起，从而导致垂体释放促性腺激素的异常周期。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_SD_PREMENSTRUEL</LocID>					<Text>经前期综合征</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_SD_PREMENSTRUEL_DESCRIPTION</LocID>		<Text>一些妇女在月经前表现出不同的症状。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_MENOPAUSE</LocID>						<Text>更年期</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_MENOPAUSE_DESCRIPTION</LocID>			<Text>月经自然停止通常发生在45到55岁之间。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ENDOMETRIOSE</LocID>						<Text>子宫内膜异位</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ENDOMETRIOSE_DESCRIPTION</LocID>			<Text>子宫内膜的存在和生长在子宫以外的地方。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_FIBROME_SS</LocID>						<Text>浆膜下的纤维瘤</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_FIBROME_SM</LocID>						<Text>黏膜下纤维瘤</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_FIBROME_I</LocID>						<Text>间质性纤维瘤</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_FIBROME_UTERIN_DESCRIPTION</LocID>		<Text>一种主要由纤维组织构成的良性肿瘤。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_KYSTE_OVARIEN1</LocID>					<Text>有机卵巢囊肿</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_KYSTE_OVARIEN1_DESCRIPTION</LocID>		<Text>卵巢囊肿是卵巢内充满液体的囊。有机囊肿可复杂化或退化。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_KYSTE_OVARIEN2</LocID>					<Text>功能性卵巢囊肿</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_KYSTE_OVARIEN2_DESCRIPTION</LocID>		<Text>卵巢囊肿是卵巢内充满液体的囊。由于激素失衡，功能性囊肿在月经周期内生长。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TORSION_KYSTE_OVARIEN</LocID>			<Text>卵巢扭转</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TORSION_KYSTE_OVARIEN_DESCRIPTION</LocID>	<Text>卵巢扭转是指卵巢附着在其他结构上发生扭转。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ABCES_OVARIEN</LocID>					<Text>卵巢脓肿</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ABCES_OVARIEN_DESCRIPTION</LocID>		<Text>卵巢脓肿是卵巢里的脓包。通常由细菌引起。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_PROLAPSUS_GENITAL</LocID>				<Text>脱垂</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_PROLAPSUS_GENITAL_DESCRIPTION</LocID>	<Text>从通常的位置或关系上跌落或滑倒身体的一部分。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GONOCOCCIE</LocID>						<Text>淋病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GONOCOCCIE_DESCRIPTION</LocID>			<Text>由淋球菌引起的生殖器粘膜的传染性炎症。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHLAMYDIOSE</LocID>						<Text>衣原体</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHLAMYDIOSE_DESCRIPTION</LocID>			<Text>衣原体病由衣原体引起的疾病或感染</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_SYPHILIS</LocID>							<Text>梅毒</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_SYPHILIS_DESCRIPTION</LocID>				<Text>螺旋体病一种由螺旋体(梅毒螺旋体)引起的慢性感染性疾病，通常为性病和先天性疾病。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TRICHOMONOSE</LocID>						<Text>滴虫病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TRICHOMONOSE_DESCRIPTION</LocID>			<Text>由滴虫引起的感染或疾病。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_MYCOSE</LocID>							<Text>阴道霉菌病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_MYCOSE_DESCRIPTION</LocID>				<Text>真菌感染由真菌引起的感染或疾病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_IGE</LocID>								<Text>盆腔炎性疾病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_IGE_DESCRIPTION</LocID>					<Text>女性生殖道(如输卵管和卵巢)的炎症，尤指由性传播疾病引起的，是导致女性不育的主要原因。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GROSSESSE</LocID>						<Text>怀孕</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GROSSESSE_DESCRIPTION</LocID>			<Text>怀孕的状态。</Text>	</GameDBLocalizedString>
+
+<!-- New -->
+			<GameDBLocalizedString>	<LocID>DIA_COL_UTERUS_BENIN</LocID>					<Text>癌前宫颈</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_COL_UTERUS_BENIN_DESCRIPTION</LocID>		<Text>子宫颈癌前病变是指子宫颈细胞发生变化，使它们更有可能发展成癌症。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CERVICITE</LocID>						<Text>宫颈炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CERVICITE_DESCRIPTION</LocID>			<Text>子宫颈的炎症。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_POLYPE_COL</LocID>						<Text>宫颈息肉</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_POLYPE_COL_DESCRIPTION</LocID>			<Text>从粘膜突出的生长物。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_COL_UTERUS</LocID>						<Text>宫颈癌</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_COL_UTERUS_DESCRIPTION</LocID>			<Text>宫颈癌是一种起源于子宫颈的癌症。这是由于细胞的异常生长，它们有能力入侵或扩散到身体的其他部位。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_CORPS_UTERUS</LocID>					<Text>子宫癌</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_CORPS_UTERUS_DESCRIPTION</LocID>		<Text>子宫癌(子宫癌或子宫内膜癌)是一种影响女性生殖系统的常见癌症。这在经历过更年期的女性中更为常见。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_RUPTURE_KYSTE_OVARIEN</LocID>			<Text>卵巢囊肿破裂</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_RUPTURE_KYSTE_OVARIEN_DESCRIPTION</LocID>	<Text>破裂的卵巢囊肿是一种充满液体的、典型的良性(非癌性)肿块，位于破裂的卵巢上。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_OVAIRE</LocID>							<Text>卵巢癌</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_OVAIRE_DESCRIPTION</LocID>				<Text>卵巢癌是一种始于卵巢的癌症。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ADENOFIBROME</LocID>						<Text>纤维腺瘤</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ADENOFIBROME_DESCRIPTION</LocID>			<Text>纤维腺瘤是一种可以在乳房内生长的肿块，通常出现在女性身上。纤维腺瘤很常见，但它们是良性的，这意味着它们是良性的。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_MFK</LocID>								<Text>乳房纤维囊性的</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_MFK_DESCRIPTION</LocID>					<Text>纤维囊性乳房疾病，通常被称为纤维囊性乳房或纤维囊性改变，是一种良性(非癌性)乳房肿块。纤维囊性乳房没有害处，也不危险，但对一些女性来说可能会很麻烦或不舒服。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_SEIN</LocID>							<Text>乳腺癌</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_K_SEIN_DESCRIPTION</LocID>				<Text>乳腺癌是一种乳腺细胞生长失控的疾病。乳腺癌可以发生在乳房的不同部位。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_HTA_G</LocID>							<Text>妊娠高血压综合征（PIH）</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_HTA_G_DESCRIPTION</LocID>				<Text>妊娠高血压又称妊高征(妊高征)，是一种以妊娠期高血压为特征的疾病。妊娠期高血压会导致一种被称为子痫前期的严重疾病。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_DG</LocID>								<Text>妊娠糖尿病（GDM）</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_DG_DESCRIPTION</LocID>					<Text>妊娠期糖尿病(GDM)被定义为妊娠期开始或首次发现的任何程度的葡萄糖耐受不良。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHORIOAMNIOTITE</LocID>					<Text>绒毛膜羊膜炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CHORIOAMNIOTITE_DESCRIPTION</LocID>		<Text>绒毛膜羊膜炎是一种发生在分娩前或分娩过程中的细菌感染。这个名字指的是包围胎儿的膜:“绒毛膜”(外膜)和“羊膜”(充满液体的囊)。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CA_G</LocID>								<Text>怀孕膀胱炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CA_G_DESCRIPTION</LocID>					<Text>膀胱炎是一种膀胱感染，导致烧灼感时小便。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_PNA_G</LocID>							<Text>怀孕肾盂肾炎 </Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_VAGINOSE</LocID>							<Text>孕期阴道炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_VAGINOSE_DESCRIPTION</LocID>				<Text>阴道内的一种细菌感染，引起有臭味的白色分泌物。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_BABY_BLUES</LocID>						<Text>产后抑郁</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_BABY_BLUES_DESCRIPTION</LocID>			<Text>女性在分娩后不久感受到的悲伤情绪通常持续不到两周。婴儿忧郁并不是一种疾病，甚至也不是一种恰当的精神疾病诊断，它只是人们试图描述一种不愉快的感觉的一种方式，这种感觉在生完孩子后不久就会出现，并往往在几天内就会消失。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_DEPRESSION_PP</LocID>					<Text>产后抑郁症</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_DEPRESSION_PP_DESCRIPTION</LocID>		<Text>产后抑郁症是一种情绪障碍，可影响产后妇女。患有产后抑郁症的母亲会经历极度的悲伤、焦虑和疲惫，这可能会使她们难以完成自己或他人的日常护理活动。</Text>	</GameDBLocalizedString>
+
+			<GameDBLocalizedString>	<LocID>DIA_EA_PP</LocID>							<Text>产后子宫内膜炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_EA_PP_DESCRIPTION</LocID>				<Text>产后子宫内膜炎是指蜕膜感染。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_EM_PP</LocID>							<Text>乳房充血</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_EM_PP_DESCRIPTION</LocID>				<Text>乳房充血意味着乳房充满了过多的乳汁。这种情况通常发生在母亲产的奶比婴儿多的时候。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CM_PP</LocID>							<Text>乳头皲裂</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_CM_PP_DESCRIPTION</LocID>				<Text>乳头裂(或乳头外伤)是母乳喂养妇女可能发生的一种情况，有许多可能的原因。乳头破裂会导致哺乳过程中一个或两个乳头疼痛、干燥、刺激或出血。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_LM_PP</LocID>							<Text>乳腺炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_LM_PP_DESCRIPTION</LocID>				<Text>乳腺炎是一种乳腺组织炎症，有时伴有感染。炎症会导致乳房疼痛、肿胀、发热和发红。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GALACTOPHORITE</LocID>					<Text>感染乳腺炎</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_GALACTOPHORITE_DESCRIPTION</LocID>		<Text>乳腺炎乳腺或乳腺的炎症，通常由细菌感染引起</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ABCES_MAMMAIRE</LocID>					<Text>乳房脓肿</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_ABCES_MAMMAIRE_DESCRIPTION</LocID>		<Text>乳腺脓肿是在乳房内形成的一种痛苦的脓液集合。大多数脓肿只发生在皮肤下面，是由细菌感染引起的。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TVP_PP</LocID>							<Text>产后深静脉血栓形成</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TVP_PP_DESCRIPTION</LocID>				<Text>深静脉血栓形成，或DVT，是在深静脉中形成血块。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TVPELV</LocID>							<Text>骨盆静脉血栓形成</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TVPELV_DESCRIPTION</LocID>				<Text>骨盆静脉血栓形成可能包括卵巢静脉血栓形成，深盆腔静脉血栓形成，脓毒性盆腔血栓性静脉炎。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_AMENORHEE_HF</LocID>						<Text>功能性下丘脑闭经（FHA）</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_AMENORHEE_HF_DESCRIPTION</LocID>			<Text>功能性下丘脑闭经(FHA)是一种非器质性和可逆性的疾病，其中促性腺激素释放激素(GnRH)搏动性分泌障碍起着关键作用。</Text>	</GameDBLocalizedString>
+
+
+    <!-- =============================				V2.2 	============================== -->
+			<GameDBLocalizedString>	<LocID>DIA_OBGYN_SYPHILIS_I</LocID>									<Text>梅毒 (I)</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_OBGYN_SYPHILIS_I_DESCRIPTION</LocID>						<Text>Primary syphilis is marked, after about 3 weeks of silent incubation, by the appearance of the chancre at the point of inoculation of the treponema and its lymphadenopathy.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_OBGYN_SYPHILIS_II</LocID>								<Text>梅毒 (II)</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_OBGYN_SYPHILIS_II_DESCRIPTION</LocID>					<Text>Secondary syphilis is marked by several mucocutaneous rashes interspersed with asymptomatic phases of a few weeks or months and last two years on average. General and visceral signs are associated with it, which testify to the systematic spread of treponema.</Text>	</GameDBLocalizedString>
+
+
+			<!-- ================================================== Urgences ================================================== -->
+
+			<GameDBLocalizedString>	<LocID>TRM_HGEN</LocID>								<Text>妇科出血</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HGEN_DESCRIPTION</LocID>					<Text>妇科出血是指女性生殖系统过度出血。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PLACENTA_PRAEVIA</LocID>					<Text>前置胎盘</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PLACENTA_PRAEVIA_DESCRIPTION</LocID>		<Text>胎盘在子宫颈内部开口处或附近的异常植入，使它倾向于在出生时先于孩子，通常会导致严重的母亲出血。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HEMATOME_RETROPLACENTAIRE</LocID>		<Text>胎盘后血肿</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HEMATOME_RETROPLACENTAIRE_DESCRIPTION</LocID>	<Text>胎盘后血肿完全位于胎盘后方，不接触胎囊。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_MAP</LocID>								<Text>早产威胁</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_MAP_DESCRIPTION</LocID>					<Text>早产的威胁会导致早产。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PREECLAMPSIE</LocID>						<Text>子痫前期</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PREECLAMPSIE_DESCRIPTION</LocID>			<Text>妊娠晚期出现的一种严重情况，其特征是血压突然升高、体重过度增加、全身水肿、蛋白尿、严重头痛和视觉障碍，如不治疗可导致子痫。</Text>	</GameDBLocalizedString>
+
+<!-- New -->
+			<GameDBLocalizedString>	<LocID>TRM_DEC_TROPHOB</LocID>						<Text>妊娠滋养细胞脱离</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_DEC_TROPHOB_DESCRIPTION</LocID>			<Text>它是怀孕初期的出血，是指胎龄24周之前的出血。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HDELIVRANCE</LocID>						<Text>产后出血</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HDELIVRANCE_DESCRIPTION</LocID>			<Text>产后出血（PPH）是一种产科急症.PPH的经典定义是失血量：阴道分娩后估计的失血量≥500 mL，或剖宫产后的失血量≥1000 mL。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PPCF</LocID>								<Text>产后精神病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PPCF_DESCRIPTION</LocID>					<Text>产后精神病是一种严重的产后精神疾病。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HELLP_SYNDROME</LocID>					<Text>临床上妊娠综合症</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HELLP_SYNDROME_DESCRIPTION</LocID>		<Text>临床上妊娠综合症是一种妊娠并发症，以溶血、肝酶升高和血小板计数低为特征。它通常开始于妊娠的最后三个月或分娩后不久。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_RUPTURE_UTERUS</LocID>					<Text>子宫破裂</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_RUPTURE_UTERUS_DESCRIPTION</LocID>		<Text>子宫破裂是指怀孕或分娩时子宫肌壁撕裂。</Text>	</GameDBLocalizedString>
+			<!-- New -->
+			<GameDBLocalizedString>	<LocID>TRM_DEC_TROPHOB</LocID>						<Text>妊娠滋养细胞疾病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_DEC_TROPHOB_DESCRIPTION</LocID>			<Text>它是怀孕初期的出血，是指胎龄24週之前的出血。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HDELIVRANCE</LocID>						<Text>产后出血</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HDELIVRANCE_DESCRIPTION</LocID>			<Text>产后出血（PPH）是一种产科急症.PPH是失血量的经典定义：阴道分娩后估计的失血量≥500 mL，或剖宫产后的失血量≥1000 mL。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PPCF</LocID>								<Text>产后精神病</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_PPCF_DESCRIPTION</LocID>					<Text>产后精神病（PP）是一种严重的精神疾病，发生在生完孩子后。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HELLP_SYNDROME</LocID>					<Text>HELLP综合徵</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_HELLP_SYNDROME_DESCRIPTION</LocID>		<Text>HELLP综合徵是妊娠并发症，其特徵在于溶血，肝酶升高和血小板计数低。 它通常在怀孕的最后三个月或分娩后不久开始。</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_RUPTURE_UTERUS</LocID>					<Text>子宫破裂</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>TRM_RUPTURE_UTERUS_DESCRIPTION</LocID>		<Text>子宫破裂是指在怀孕或分娩期间子宫肌肉壁撕裂的时候。</Text>	</GameDBLocalizedString>
+		
+		</LocalizedStrings>
+    </GameDBStringTable>
+</Database>

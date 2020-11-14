@@ -1,0 +1,114 @@
+<Database>
+
+    <GameDBRoomType ID="ROOM_TYPE_GYNECOLOGY_OFFICE">
+        <AbbreviationLocID>ROOM_TYPE_GYNECOLOGY_OFFICE_DESCRIPTION</AbbreviationLocID>
+        <TextureID>384</TextureID>
+        <IconIndex>800</IconIndex>
+        <AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+        <RequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_pc</Tag>              				<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_print</Tag>         				<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_cabinets_equipment</Tag>       	<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_exam_table</Tag>        			<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_exam_lamp_def</Tag>      			<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_clean_hands</Tag>       			<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_biohazard_bin</Tag> 				<MinCount>1</MinCount>    </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_eye_test</Tag>              		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_crp_scan</Tag>              		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_audiometer</Tag>              		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+        </RequiredEquipment>
+
+        <LockedByDefault>false</LockedByDefault>
+
+        <BuildingModeFilters>
+        	<Tag>ui_office_desk</Tag>
+        	<Tag>ui_chair_office</Tag>
+        	<Tag>ui_oxygen_tank</Tag>
+        	<Tag>ui_equipment_table</Tag>
+        	<Tag>ui_mobile_cabinet</Tag>
+        	<Tag>ui_cabinets</Tag>
+        	<Tag>ui_bookcase</Tag>
+        	<Tag>ui_card_file</Tag>
+        	<Tag>ui_chair_def</Tag>
+        	<Tag>ui_privacy_screens</Tag>
+        </BuildingModeFilters>
+
+        <AcceptsOutpatients>true</AcceptsOutpatients>
+
+        <NoNightShift>false</NoNightShift>
+
+        <Tags>
+            <Tag>doctor_workspace</Tag>
+            <Tag>intern_workspace</Tag>
+			<Tag>examinations_no_equipment</Tag>
+            <Tag>examinations_basic_equipment</Tag>
+            <Tag>any_outpatient_office</Tag>
+            <Tag>any_office</Tag>
+            <Tag>specialized_office</Tag>
+            <Tag>receipt</Tag>
+            <Tag>emergency_doctors_office</Tag>
+            <Tag>gyneco_office</Tag>
+        </Tags>
+
+        <RequiredSkill>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</RequiredSkill>
+        
+        <MinWidth>4</MinWidth>
+        <MinHeight>4</MinHeight>
+
+        <StatisticsMultiplier>1.75</StatisticsMultiplier>
+    </GameDBRoomType>
+
+    <GameDBRoomType ID="ROOM_TYPE_INPATIENT_GYNECOLOGY_OFFICE">
+        <AbbreviationLocID>ROOM_TYPE_INPATIENT_GYNECOLOGY_OFFICE_DESCRIPTION</AbbreviationLocID>
+        <TextureID>398</TextureID>
+        <IconIndex>828</IconIndex>
+        <AccessRights>PATIENT_PROCEDURE</AccessRights>
+
+        <RequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_cabinets_equipment</Tag>       		<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_exam_table</Tag>          				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_exam_lamp_def</Tag>       				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_clean_hands</Tag>         				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_biohazard_bin</Tag>     				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_eye_test</Tag>            				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_workstation</Tag>  					<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_crp_scan</Tag>            				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_audiometer</Tag>          				<MinCount>1</MinCount>  </GameDBRequiredEquipment>
+            <GameDBRequiredEquipment>    <Tag>ui_stretcher</Tag>          				<MinCount>0</MinCount>  </GameDBRequiredEquipment>
+        </RequiredEquipment>
+
+        <LockedByDefault>false</LockedByDefault>
+
+        <BuildingModeFilters>
+        	<Tag>ui_oxygen_tank</Tag>
+        	<Tag>ui_equipment_table</Tag>
+        	<Tag>ui_mobile_cabinet</Tag>
+        	<Tag>ui_cabinets</Tag>
+        	<Tag>ui_bookcase</Tag>
+        	<Tag>ui_card_file</Tag>
+        	<Tag>ui_chair_def</Tag>
+        	<Tag>ui_privacy_screens</Tag>
+        	<Tag>stool</Tag>
+        </BuildingModeFilters>
+
+        <Tags>
+            <Tag>examinations_no_equipment</Tag>
+            <Tag>examinations_basic_equipment</Tag>
+            <Tag>specialized_office</Tag>
+            <Tag>any_inpatient_office</Tag>
+            <Tag>any_office</Tag>
+            <Tag>receipt</Tag>
+			<Tag>emergency_doctors_office</Tag>
+			<Tag>gyneco_office</Tag>
+			<Tag>gyneco_inpatient_office</Tag>
+			<Tag>icu</Tag>
+        </Tags>
+
+        <MinWidth>4</MinWidth>
+        <MinHeight>4</MinHeight>
+
+        <StatisticsMultiplier>1.2</StatisticsMultiplier>
+    </GameDBRoomType>
+
+</Database>

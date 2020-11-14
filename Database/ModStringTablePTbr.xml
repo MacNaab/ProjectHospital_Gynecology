@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_ADDON_GYNECOLOGIE">
+    
+    <LanguageCode>ptbr</LanguageCode>
+    <LanguageNameLocalized>Português do Brasil</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>Nathan Silva</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_GYNECOLOGIE</LocID>                       <Text>Ginecologia</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

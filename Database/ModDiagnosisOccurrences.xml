@@ -1,0 +1,7 @@
+<Database>
+    
+    <GameDBDiagnosisOccurrence ID="OCCURRENCE_K">
+        <OccurrenceRate>25</OccurrenceRate>
+    </GameDBDiagnosisOccurrence>
+
+</Database>

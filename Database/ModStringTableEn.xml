@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="ADDON_GYNECOLOGIE">
+    
+    <LanguageCode>en</LanguageCode>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+		
+	<Contributors>
+    <Name>MacNaab</Name>
+    </Contributors>
+		
+	<LocalizedStrings>
+		
+	<GameDBLocalizedString>      <LocID>ADDON_MOD_GYNECOLOGIE</LocID>                       <Text>Gynaecology</Text>  </GameDBLocalizedString>
+	
+	</LocalizedStrings>
+	
+	</GameDBStringTable>
+
+</Database>

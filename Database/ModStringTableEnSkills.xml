@@ -1,0 +1,28 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_ADDON_GYNECOLOGIE_SKILLS">
+        
+        <LanguageCode>en</LanguageCode>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name></Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+		<!-- Departments -->
+			
+			<GameDBLocalizedString>	<LocID>DPT_GYNECOLOGIE_DEPARTMENT</LocID>						<Text>Gynaecology</Text>	</GameDBLocalizedString>
+			
+		<!--Skills-->
+			
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE</LocID>				<Text>Gynecologist</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_GENERAL_GYNECOLOGUE_DESCRIPTION</LocID>	<Text>Gynecologist specialization is used in examinations and for prescribing treatments at Gynaecology department and allows the doctor to assist at surgery.</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_GYNECOLOGUE_SURGERY</LocID>				<Text>Obstetrician</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>SKILL_DOC_SPEC_GYNECOLOGUE_SURGERY_DESCRIPTION</LocID>	<Text>Obstetrician allows the doctor to act as main surgeon at Gynaecology department and affects how often surgeries will end up with complications.</Text>	</GameDBLocalizedString>
+		
+		</LocalizedStrings>
+		
+		</GameDBStringTable>
+
+</Database>
