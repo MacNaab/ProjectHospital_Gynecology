@@ -72,9 +72,9 @@
 			<GameDBLocalizedString>	<LocID>DIA_MFK_DESCRIPTION</LocID>					<Text>Fibrocystic breast disease, commonly called fibrocystic breasts or fibrocystic change, is a benign (noncancerous) condition in which the breasts feel lumpy. Fibrocystic breasts aren't harmful or dangerous, but may be bothersome or uncomfortable for some women.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_K_SEIN</LocID>							<Text>Breast cancer</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_K_SEIN_DESCRIPTION</LocID>				<Text>Breast cancer is a disease in which cells in the breast grow out of control. Breast cancer can begin in different parts of the breast.</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>DIA_HTA_G</LocID>							<Text>PIH</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_HTA_G</LocID>							<Text>Pregnancy-Induced Hypertension</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_HTA_G_DESCRIPTION</LocID>				<Text>Gestational Hypertension also referred to as Pregnancy-Induced Hypertension (PIH) is a condition characterized by high blood pressure during pregnancy. Gestational Hypertension can lead to a serious condition called Preeclampsia.</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>DIA_DG</LocID>								<Text>GDM</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_DG</LocID>								<Text>Gestational diabetes mellitus</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_DG_DESCRIPTION</LocID>					<Text>Gestational diabetes mellitus (GDM) is defined as any degree of glucose intolerance with onset or first recognition during pregnancy.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_CHORIOAMNIOTITE</LocID>					<Text>Chorioamnionitis</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_CHORIOAMNIOTITE_DESCRIPTION</LocID>		<Text>Chorioamnionitis is a bacterial infection that occurs before or during labor. The name refers to the membranes surrounding the fetus: the “chorion” (outer membrane) and the “amnion” (fluid-filled sac).</Text>	</GameDBLocalizedString>
@@ -100,11 +100,11 @@
 			<GameDBLocalizedString>	<LocID>DIA_GALACTOPHORITE_DESCRIPTION</LocID>		<Text>Inflammation of the mammary gland in the breast or udder, typically due to bacterial infection.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_ABCES_MAMMAIRE</LocID>					<Text>Breast abscess</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_ABCES_MAMMAIRE_DESCRIPTION</LocID>		<Text>A breast abscess is a painful collection of pus that forms in the breast. Most abscesses develop just under the skin and are caused by a bacterial infection.</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>DIA_TVP_PP</LocID>							<Text>Postpartum DVT</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_TVP_PP</LocID>							<Text>Postpartum deep vein thrombosis</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_TVP_PP_DESCRIPTION</LocID>				<Text>Deep vein thrombosis, or DVT, is the development of a blood clot in a deep vein.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_TVPELV</LocID>							<Text>Pelvic vein thrombosis</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_TVPELV_DESCRIPTION</LocID>				<Text>Pelvic vein thrombosis may include ovarian vein thrombosis, deep pelvic vein thrombosis, septic pelvic thrombophlebitis.</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>DIA_AMENORHEE_HF</LocID>						<Text>FHA</Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_AMENORHEE_HF</LocID>						<Text>Functional hypothalamic amenorrhea</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_AMENORHEE_HF_DESCRIPTION</LocID>			<Text>Functional hypothalamic amenorrhea (FHA) is defined as a non-organic and reversible disorder in which the impairment of gonadotropin-releasing hormone (GnRH) pulsatile secretion plays a key role.</Text>	</GameDBLocalizedString>
 
 			<GameDBLocalizedString>	<LocID>DIA_MOLE_HYDATIFORME</LocID>					<Text>Molar pregnancy</Text>	</GameDBLocalizedString>
@@ -143,7 +143,7 @@
 			<GameDBLocalizedString>	<LocID>DIA_OBGYN_BARTHOLINITE_RECIDIVE_DESCRIPTION</LocID>				<Text>The treatment consists in carrying out the excision of the cyst and the Bartholin gland under general anesthesia.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_PILONIDAL</LocID>								<Text>Pilonidal Cyst</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_PILONIDAL_DESCRIPTION</LocID>					<Text>A pilonidal cyst is an epithelialized sinus tract or cyst containing hair follicles with a surrounding inflammatory reaction. It usually develops in the sacrococcygeal region with few reports of its development in the genitalia.</Text>	</GameDBLocalizedString>
-			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_EPIDERMIQUE_VULVE</LocID>						<Text>Vulvar Epidermoid Cyst </Text>	</GameDBLocalizedString>
+			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_EPIDERMIQUE_VULVE</LocID>						<Text>Vulvar Epidermoid Cyst</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_EPIDERMIQUE_VULVE_DESCRIPTION</LocID>			<Text>Epidermoid cysts result from the blockage of sebaceous gland channels.</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_VULVE_INCLUSION</LocID>							<Text>Vulvar Inclusion Cyst</Text>	</GameDBLocalizedString>
 			<GameDBLocalizedString>	<LocID>DIA_OBGYN_KYSTE_VULVE_INCLUSION_DESCRIPTION</LocID>				<Text>Inclusion cysts are the most common vulvar cysts, they contain epithelial tissue.</Text>	</GameDBLocalizedString>

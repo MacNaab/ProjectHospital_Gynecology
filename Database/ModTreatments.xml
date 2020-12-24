@@ -158,6 +158,7 @@
             <DressLevel>HALF</DressLevel>
             <DressLevelAfter>FULL</DressLevelAfter>
             <DetachedDepartmentRef>DPT_GYNECOLOGIE_DEPARTMENT</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <TreatmentType>PROCEDURE</TreatmentType>
         <Cost>100</Cost>
@@ -243,6 +244,7 @@
             <DressLevel>HALF</DressLevel>
             <DressLevelAfter>FULL</DressLevelAfter>
             <DetachedDepartmentRef>DPT_GYNECOLOGIE_DEPARTMENT</DetachedDepartmentRef>
+            <FallbackLabDepartmentRef>DPT_RADIOLOGY</FallbackLabDepartmentRef>
         </Procedure>
         <TreatmentType>PROCEDURE</TreatmentType>
         <Cost>100</Cost>

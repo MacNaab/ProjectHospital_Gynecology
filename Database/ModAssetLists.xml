@@ -143,13 +143,13 @@
 	<GameDBAsset ID="ASSET_GYNECO_ICON_SM8_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_08_small.png</File> </GameDBAsset>
 	<GameDBAsset ID="ASSET_GYNECO_ICON_SM9"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_09.png</File> </GameDBAsset>			<!-- Tempete de neige   -->
 	<GameDBAsset ID="ASSET_GYNECO_ICON_SM9_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_09_small.png</File> </GameDBAsset>
-	<GameDBAsset ID="ASSET_GYNECO_ICON_SM10"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_010.png</File> </GameDBAsset>			<!-- Tempete de neige   -->
-	<GameDBAsset ID="ASSET_GYNECO_ICON_SM10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_010_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_SM10"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_10.png</File> </GameDBAsset>			<!-- Tempete de neige   -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_SM10_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_10_small.png</File> </GameDBAsset>
 
-	<GameDBAsset ID="ASSET_GYNECO_ICON_SM11"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_011.png</File> </GameDBAsset>			<!-- Tempete de neige   -->
-	<GameDBAsset ID="ASSET_GYNECO_ICON_SM11_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_011_small.png</File> </GameDBAsset>
-	<GameDBAsset ID="ASSET_GYNECO_ICON_SM12"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_012.png</File> </GameDBAsset>			<!-- Ligature des trompes   -->
-	<GameDBAsset ID="ASSET_GYNECO_ICON_SM12_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_012_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_SM11"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_11.png</File> </GameDBAsset>			<!-- Tempete de neige   -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_SM11_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_11_small.png</File> </GameDBAsset>
+	<GameDBAsset ID="ASSET_GYNECO_ICON_SM12"> 						   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_12.png</File> </GameDBAsset>			<!-- Ligature des trompes   -->
+	<GameDBAsset ID="ASSET_GYNECO_ICON_SM12_SMALL"> 				   <Type>TEXTURE_CUSTOM_SPRITE</Type> 			  <File>MOD_ROOT/mod_sm_icon_12_small.png</File> </GameDBAsset>
 
 
 <!-- ================================================== Treatments ================================================== -->
